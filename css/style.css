@@ -104,7 +104,7 @@ input::-webkit-inner-spin-button {
 
 /* Testmonial  */
 .testimonialbg{padding-top: 40px; padding-bottom: 40px; background-color: #F2F2F2;margin-top: 50px;}
-.testimonialbg .media{padding: 50px 60px;border-radius: 150px;box-shadow: 2px 2px 10px #cbcaca;background-color: #fff;margin-bottom: 20px;}
+.testimonialbg .media{padding: 50px 60px;border-radius: 150px;box-shadow: 2px 2px 10px #cbcaca;background-color: #fff;margin-bottom: 20px;margin-left: 20px;margin-right: 20px;}
 .carouselTestimonial .carousel-control-prev-icon {background-image: url(../image/arwLeft.svg);}
 .carouselTestimonial .carousel-control-next-icon {background-image: url(../image/arwRight.svg);}
 .carouselTestimonial .carousel-control-prev {left: -110px;}
@@ -151,6 +151,69 @@ input::-webkit-inner-spin-button {
 .footerwrap  .socialicons a:hover{background-color: #2c3232;color: #fff;border-color: #2c3232;}
 .footerwrap  .socialicons a i{transition: all linear .2s;}
 .footerwrap h6{color: #fff;}
+
+
+/***************************** About Page  *************************************/
+/* Banner-section */
+.aboutbannerbg{background-image: url(/image/aboutusbg.jpg); background-repeat: no-repeat; background-size: cover;padding-top: 60px; padding-bottom: 40px;}
+.aboutbannerbg .header{font-size: 50px; margin-top: 60px; font-weight: 800;}
+.aboutbannerbg .headerbtm{position: absolute;bottom: 20px;font-size: 45px;
+    color: #fff;font-weight: 600;left: -90px;}
+.visionbg{padding-top: 110px; padding-bottom: 60px;}
+.visionbg .header1{position: absolute; top: 70px;}
+.visionbg .ourtxt{background-image:linear-gradient(to right,#F1FFC4,#4AE080 );
+    padding: 35px 40px;padding-left: 80px;margin: 50px 0 0 -85px;position: absolute;right: -104px;top: 75px;}
+.visionbg .visionimg{position: absolute;top: 0px;z-index: 99;right: 25px;}
+.ourmisionbg .ourtxt1{background-image:linear-gradient(to left,#A4DBF5,#00557B);
+    padding:  35px 50px 35px 90px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;}
+
+.ourmisionbg .text-para{color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------- Media ---------- */
 /* ##Device = Desktops, ##Screen = 1281px to higher resolution desktops */
 @media (min-width:1281px){
@@ -182,12 +245,12 @@ input::-webkit-inner-spin-button {
     .our-competitive .ourcom-txt{padding: 20px 20px;}
     .our-excu .ourexuimg,.our-excu .ourexuimg3{position: static;margin-top: 40px; margin-bottom: 40px;}
     .our-excu .header.head, .our-excu .text-para{padding-left: 0;}
-    .our-excu .ourtxt{padding: 35px 30px;position: static; border-radius:2px;margin: 0;}
+    .our-excu .ourtxt,.visionbg .ourtxt{padding: 35px 30px;position: static; border-radius:2px;margin: 0;}
     .our-excu .ourtxt1{padding: 28px 25px 35px 20px;border-radius: 2px;}
     .our-excu .ourexuimg1{position: static; margin-top: 40px;}
     .our-excu .ourtxt2{padding: 35px 30px;position: static;border-radius: 2px;
         margin: 0;}
-    .testimonialbg .media{padding:20px;border-radius: 2px;box-shadow: none;background-color: #fff;}
+    .testimonialbg .media{padding:20px;border-radius: 2px;box-shadow: none;background-color: #fff; margin: 0;}
     .testimonialWapper .carousel-control-prev {left: 5px;top: -5%;}
     .testimonialWapper .carousel-control-next {right: 5px;top: -5%;}
     .testimonialWapper .lineHeading, .contactBox .contactForm .lineHeading, .contactTextBox h3, .earnWrapper .lineHeading, .lineHeading, .rewardstextBox .rewardsTest .headLines {min-height:30px;font-size:30px;margin-bottom: 20px;}
@@ -202,4 +265,9 @@ input::-webkit-inner-spin-button {
     .contact-us .getimg{position: static; margin-bottom: 40px;}
     .contact-us .form-card{padding: 35px 30px;position: static;border-radius: 2px;margin: 0;}
     .footerwrap{text-align: center; margin-top: -20px;}
+    .aboutbannerbg .header{margin-top: 0; margin-bottom: 30px;}
+    .aboutbannerbg .headerbtm{top: 540%;font-size: 25px;color: #000;font-weight: 600;
+        left: 30px;}
+    .visionbg .visionimg{position: static;}
+    .visionbg .header1{position: static; margin: 20px auto;}
  }
