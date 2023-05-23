@@ -187,13 +187,18 @@ input::-webkit-inner-spin-button {
     .our-excu .ourexuimg1{position: static; margin-top: 40px;}
     .our-excu .ourtxt2{padding: 35px 30px;position: static;border-radius: 2px;
         margin: 0;}
-    .testimonialbg .media{padding:0px;border-radius: 2px;box-shadow: none;background-color: #fff;}
+    .testimonialbg .media{padding:20px;border-radius: 2px;box-shadow: none;background-color: #fff;}
     .testimonialWapper .carousel-control-prev {left: 5px;top: -5%;}
     .testimonialWapper .carousel-control-next {right: 5px;top: -5%;}
     .testimonialWapper .lineHeading, .contactBox .contactForm .lineHeading, .contactTextBox h3, .earnWrapper .lineHeading, .lineHeading, .rewardstextBox .rewardsTest .headLines {min-height:30px;font-size:30px;margin-bottom: 20px;}
     .testimonialWapper .carousel-control-next,.testimonialWapper .carousel-control-prev{display: none;}
     .testimonialWapper .testimonyBox{margin-top: 40px; box-shadow: none;}
     .testimonialWapper .testimonyBox .linePara{max-height: none;overflow: hidden;}
+    .carouselTestimonial .carousel-control-next-icon{display: none;}
+    .our-excu{padding-bottom: 0;}
+    .avtrbg{height: 100px;}
+    .contact-us,.testimonialbg{padding-top: 0; overflow: hidden;}
+    .testimonialWapper{padding-top: 10px;}
     .contact-us .getimg{position: static; margin-bottom: 40px;}
     .contact-us .form-card{padding: 35px 30px;position: static;border-radius: 2px;margin: 0;}
     .footerwrap{text-align: center; margin-top: -20px;}
