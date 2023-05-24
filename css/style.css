@@ -164,16 +164,17 @@ input::-webkit-inner-spin-button {
 .visionbg .ourtxt{background-image:linear-gradient(to right,#F1FFC4,#4AE080 );
     padding: 35px 40px;padding-left: 80px;margin: 50px 0 0 -85px;position: absolute;right: -104px;top: 75px;}
 .visionbg .visionimg{position: absolute;top: 0px;z-index: 99;right: 25px;}
+.ourmisionbg {position: relative;padding-top: 100px;padding-bottom: 50px;}
 .ourmisionbg .ourtxt1{background-image:linear-gradient(to left,#A4DBF5,#00557B);
-    padding:  35px 50px 35px 90px;border-top-right-radius: 60px;border-bottom-right-radius: 60px;}
-
+    padding:  35px 100px 35px 50px;}
 .ourmisionbg .text-para{color: #fff;}
-
-
-
-
-
-
+.ourmisionbg .misionimg{position: absolute;top: -105px;z-index: 99;right: 125px;}
+.ourmisionbg .header1{position: absolute;top: -60px;left: 50px;}
+.keymain{ padding-top: 80px; padding-bottom: 60px;}
+.keymain ul li{text-decoration: none;list-style-type: none;margin-bottom: 10px;
+    font-size: 17px;font-weight: 500;display: flex;}
+.keymain ul li i{font-size: 17px;margin-right: 20px;transform: translateY(10px);}
+.keymain .header1{margin-bottom: 40px;}
 
 
 
@@ -238,16 +239,17 @@ input::-webkit-inner-spin-button {
 @media (min-width:320px) and (max-width:480px){
     .mt-80{margin-top: 50px;}
     .logo_main {height: 35px;}
+    .mainHeader .navbar-nav{text-align: center;}
     .header{font-size: 25px;}
     .header1{font-size: 30px;}
     .banner-main .banner-text{margin-top:0px; margin-bottom: 50px;}
-    .stagnat-resec .stagnate-image{margin-bottom: 40px;}
+    .stagnat-resec .stagnate-image{margin-top: 40px;}
     .our-competitive .ourcom-txt{padding: 20px 20px;}
-    .our-excu .ourexuimg,.our-excu .ourexuimg3{position: static;margin-top: 40px; margin-bottom: 40px;}
+    .our-excu .ourexuimg,.our-excu .ourexuimg3{position: static;margin-top: 20px; margin-bottom: 40px;}
     .our-excu .header.head, .our-excu .text-para{padding-left: 0;}
     .our-excu .ourtxt,.visionbg .ourtxt{padding: 35px 30px;position: static; border-radius:2px;margin: 0;}
     .our-excu .ourtxt1{padding: 28px 25px 35px 20px;border-radius: 2px;}
-    .our-excu .ourexuimg1{position: static; margin-top: 40px;}
+    .our-excu .ourexuimg1{position: static; margin-bottom: 40px;}
     .our-excu .ourtxt2{padding: 35px 30px;position: static;border-radius: 2px;
         margin: 0;}
     .testimonialbg .media{padding:20px;border-radius: 2px;box-shadow: none;background-color: #fff; margin: 0;}
@@ -270,4 +272,11 @@ input::-webkit-inner-spin-button {
         left: 30px;}
     .visionbg .visionimg{position: static;}
     .visionbg .header1{position: static; margin: 20px auto;}
+    .ourmisionbg{margin-top: -140px;}
+    .ourmisionbg .header1{position: static; margin: 10px auto;}
+    .ourmisionbg .misionimg{position: static; margin-top: 40px; margin-bottom: 40px;}
+    .ourmisionbg .ourtxt1{padding: 35px 20px 35px 20px;}
+    .order2{order: 2;}
+    .keymain{padding-top: 0px; padding-bottom: 50px;}
+    .our-serv{padding-top: 0;}
  }
