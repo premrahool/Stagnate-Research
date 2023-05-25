@@ -48,7 +48,7 @@ input::-webkit-inner-spin-button {
 .getbtn{margin-top: 20px;}
 
 /* Banner-Section  */
-.banner-main{background-image: url(./image/herobg.png); background-repeat: no-repeat; background-size: cover;padding-top: 60px; padding-bottom: 40px;}
+.banner-main{background-image: url(/image/herobg.png); background-repeat: no-repeat; background-size: cover;padding-top: 60px; padding-bottom: 40px;}
 .banner-main .banner-text{margin-top: 60px;}
 /* Why Stagnate Research? */
 .stagnat-resec{padding-top: 60px; padding-bottom: 50px;}
@@ -68,7 +68,7 @@ input::-webkit-inner-spin-button {
     .faqCollapse .card-body { padding: 15px 20px; background: #fff;border-radius: 0; margin: 0px; color: #6f6f6f; font-size: 15px; letter-spacing: .2px;}
     .faqWrap ul li{text-decoration: none;list-style-type: none;}
 /* Our Services */
-.our-serv{background-image: url(./image/ourservicesbg.png); background-repeat: no-repeat; background-size: cover;padding-top: 40px; padding-bottom: 40px;}
+.our-serv{background-image: url(/image/ourservicesbg.png); background-repeat: no-repeat; background-size: cover;padding-top: 40px; padding-bottom: 40px;}
 .our-serv .service-txt{padding: 20px 20px;border-radius: 20px;box-shadow: 2px 2px 10px #cbcaca;background-color: #fff;margin-bottom: 20px;position: relative;transition: all linear .5s;}
 .our-serv .service-txt:hover{background-color: #03A4E1; color: #fff;transition: all linear .5s;}
 .our-serv .header1{margin-bottom: 40px;}
@@ -105,8 +105,8 @@ input::-webkit-inner-spin-button {
 /* Testmonial  */
 .testimonialbg{padding-top: 40px; padding-bottom: 40px; background-color: #F2F2F2;margin-top: 50px;}
 .testimonialbg .media{padding: 50px 60px;border-radius: 150px;box-shadow: 2px 2px 10px #cbcaca;background-color: #fff;margin-bottom: 20px;margin-left: 20px;margin-right: 20px;}
-.carouselTestimonial .carousel-control-prev-icon {background-image: url(./image/arwLeft.svg);}
-.carouselTestimonial .carousel-control-next-icon {background-image: url(./image/arwRight.svg);}
+.carouselTestimonial .carousel-control-prev-icon {background-image: url(/image/arwLeft.svg);}
+.carouselTestimonial .carousel-control-next-icon {background-image: url(/image/arwRight.svg);}
 .carouselTestimonial .carousel-control-prev {left: -110px;}
 .carouselTestimonial .carousel-control-next {right: -110px;}
 .avtrbg{height: 200px;}
@@ -158,7 +158,7 @@ input::-webkit-inner-spin-button {
 .requestmodal .modal-title{margin: 0 auto;padding-left: 80px;}
 /***************************** About Page  *************************************/
 /* Banner-section */
-.aboutbannerbg{background-image: url(./image/aboutusbg.jpg); background-repeat: no-repeat; background-size: cover;padding-top: 60px; padding-bottom: 40px;}
+.aboutbannerbg{background-image: url(/image/aboutusbg.jpg); background-repeat: no-repeat; background-size: cover;padding-top: 60px; padding-bottom: 40px;}
 .aboutbannerbg .header{font-size: 50px; margin-top: 60px; font-weight: 800;}
 .aboutbannerbg .headerbtm{position: absolute;bottom: 20px;font-size: 45px;
     color: #fff;font-weight: 600;left: -90px;}
@@ -184,7 +184,7 @@ input::-webkit-inner-spin-button {
 
 /********************* QUESTIONNAIRE/ SURVEY DEVELOPMENT **************************/
 
-.quetbannerbg{background-image: url(./image/herobgservices.png); background-repeat: no-repeat; background-size: cover;padding-top: 75px; padding-bottom: 40px;}
+.quetbannerbg{background-image: url(/image/herobgservices.png); background-repeat: no-repeat; background-size: cover;padding-top: 75px; padding-bottom: 40px;}
 .quetbannerbg .header{font-size: 50px;margin-top: 60px;font-weight: 800;}
 
 .quetbannerbg1{background-image:linear-gradient(to right,#00557B,#00A1ED4D);margin-top: -110px;padding-top: 20px;padding-bottom: 10px;}
@@ -200,7 +200,7 @@ input::-webkit-inner-spin-button {
 
 /*********************** Blog *****************************/
 
-.blogbanner{background-image: url(./image/aboutusbg.jpg); background-repeat: no-repeat; background-size: cover;padding-top: 60px; padding-bottom: 40px;}
+.blogbanner{background-image: url(/image/aboutusbg.jpg); background-repeat: no-repeat; background-size: cover;padding-top: 60px; padding-bottom: 40px;}
 .blogbanner .header{font-size: 50px; margin-top: 60px; font-weight: 800;}
 .blogbanner .headerbtm{position: absolute;bottom: 20px;font-size: 45px;
     color: #fff;font-weight: 600;left: 12px;}
