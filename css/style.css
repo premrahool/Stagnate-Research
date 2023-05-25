@@ -56,17 +56,17 @@ input::-webkit-inner-spin-button {
 .stagnat-resec .stagnate-txt ul li{text-decoration: none;list-style-type: none; margin-bottom: 10px; font-size: 17px; font-weight: 500; }
 .stagnat-resec .stagnate-txt ul li i{border: 1px solid #000;padding: 5px; font-size: 17px;margin-right: 20px;}
 /* FAQ */
-    .faqWrap {background-color:#fff; padding-top:0px;padding-bottom:60px;}
-    .faqBox {margin-top:30px;}
-    .faqBox .card-header .accicon {float: right;font-size: 20px;  width: 1.2em;}
-    .faqBox .card-header{cursor: pointer;border-bottom: none; box-shadow: none;color:#262626;font-size: 20px; font-weight: 500;background-color: #fff;    padding: 18px 18px;}
-    .faqBox .card{border: 1px solid #262626; border-radius: 8px !important; margin-bottom: 15px;border: none;}
-    .faqBox .accordion>.card:not(:last-of-type) {border-bottom: 1px solid #262626; border: none;}
-    .faqBox .card-body{border-top: 1px solid #262626;border: none;}
-    .faqBox .card-header .rotate-icon {font-size: 24px;font-weight: 600;}
-    .faqBox .card-header:not(.collapsed) .rotate-icon {transform: rotate(180deg);}
-    .faqCollapse .card-body { padding: 15px 20px; background: #fff;border-radius: 0; margin: 0px; color: #6f6f6f; font-size: 15px; letter-spacing: .2px;}
-    .faqWrap ul li{text-decoration: none;list-style-type: none;}
+.faqWrap {background-color:#fff; padding-top:0px;padding-bottom:60px;}
+.faqBox {margin-top:30px;}
+.faqBox .card-header .accicon {float: right;font-size: 20px;  width: 1.2em;}
+.faqBox .card-header{cursor: pointer;border-bottom: none; box-shadow: none;color:#262626;font-size: 20px; font-weight: 500;background-color: #fff;    padding: 18px 18px;}
+.faqBox .card{border: 1px solid #262626; border-radius: 8px !important; margin-bottom: 15px;border: none;}
+.faqBox .accordion>.card:not(:last-of-type) {border-bottom: 1px solid #262626; border: none;}
+.faqBox .card-body{border-top: 1px solid #262626;border: none;}
+.faqBox .card-header .rotate-icon {font-size: 24px;font-weight: 600;}
+.faqBox .card-header:not(.collapsed) .rotate-icon {transform: rotate(180deg);}
+.faqCollapse .card-body { padding: 15px 20px; background: #fff;border-radius: 0; margin: 0px; color: #6f6f6f; font-size: 15px; letter-spacing: .2px;}
+.faqWrap ul li{text-decoration: none;list-style-type: none;}
 /* Our Services */
 .our-serv{background-image: url(/image/ourservicesbg.png); background-repeat: no-repeat; background-size: cover;padding-top: 40px; padding-bottom: 40px;}
 .our-serv .service-txt{padding: 20px 20px;border-radius: 20px;box-shadow: 2px 2px 10px #cbcaca;background-color: #fff;margin-bottom: 20px;position: relative;transition: all linear .5s;}
@@ -79,8 +79,10 @@ input::-webkit-inner-spin-button {
 
 /* Our Competitive Edge */
 .our-competitive{padding-top: 50px; padding-bottom: 0px;}
-.our-competitive .ourcom-txt{padding: 40px 60px;border-radius: 20px;box-shadow: 2px 2px 10px #cbcaca;background-color: #fff;margin-bottom: 20px;min-height: 160px;color: #00668D;text-align: center;cursor: pointer;}
-.our-competitive .ourcom-txt:hover{box-shadow: 4px 5px 10px #d3d3d3;transition: all linear .2s;transform: scale(1.03);}
+.our-competitive .ourcom-txt{padding: 40px 60px;border-radius: 20px;box-shadow: 2px 2px 10px #cbcaca;background-color: #fff;margin-bottom: 20px;min-height: 160px;color: #fff;text-align: center;cursor: pointer;transition: all linear .5s;
+    background-color: #003447;}
+.our-competitive .ourcom-txt.collapsed{background-color: #fff;color: #03A4E1;}
+.our-competitive .ourcom-txt:hover{box-shadow: 4px 5px 10px #d3d3d3;transition: all linear .2s;transform: scale(1.03);background-color: #003447; color: #fff;}
 .our-competitive .our-comptxt{margin-bottom: 40px;}
 
 /* Our Execution Framework  */
@@ -112,7 +114,7 @@ input::-webkit-inner-spin-button {
 .avtrbg{height: 200px;}
 
 /* Blog */
-.testimonialWapper {padding-top:50px;padding-bottom: 50px;}
+.testimonialWapper {padding-top:80px;padding-bottom: 50px;}
 .testimonialWapper .testimonyBox {box-shadow: 0px 0px 10px #a5a5a5;margin: 0 10px;background-color: #fff;margin-bottom: 20px;}
 .testimonialWapper .testimonyBox .linePara {padding:20px 20px 0;margin-bottom:2px;font-size: 16px;min-height:250px;max-height:250px;overflow-y:auto;}
 .testimonialWapper .testimonyBox .line2 {padding:1px 20px 20px;font-size: 16px;color: #9b1e22;text-align: right;}
@@ -124,6 +126,7 @@ input::-webkit-inner-spin-button {
 .testimonialWapper .testimonyBox .test-head{margin-top: 20px;padding: 0 25px;}
 .testimonialWapper .arrow{margin-right: 15px;margin-top: 10px;}
 .testimonialWapper .arrow a{color: #000; text-decoration: none;}
+.testimonialWapper .header1{margin-bottom: 20px;}
 /* Contact-us  */
 .contact-us { padding-top: 50px; padding-bottom: 80px;position: relative; }
 .contact-us .heading {color: #f3f3f3;font-size: 35px;font-weight: 500;margin-bottom: 20px;}
@@ -144,11 +147,12 @@ input::-webkit-inner-spin-button {
 .footerwrap ul{list-style-type: none;padding: 0;}
 .footerwrap ul li{padding-top: 10px;}
 .footerwrap ul li i{color: #fff;}
-.footerwrap ul a{color: #fff;}
+.footerwrap ul a{color: #fff;transition: all linear .4s;}
+.footerwrap ul a:hover{ transition: all linear .4s; text-decoration: none;}
 .footerwrap  .socialicons{margin-top: 25px;}
 .footerwrap  .socialicons a{margin-right: 10px;font-size: 16px;color: #000;border: 1px solid #fff;border-radius: 30px;padding: 6px 9px;}
 .footerwrap  .socialicons a.fb{padding: 6px 11px;}
-.footerwrap  .socialicons a:hover{background-color: #2c3232;color: #fff;border-color: #2c3232;}
+.footerwrap  .socialicons a:hover{background-color: #003447;color: #fff;border-color: #003447;}
 .footerwrap  .socialicons a i{transition: all linear .2s;}
 .footerwrap h6{color: #fff;}
 
@@ -185,11 +189,12 @@ input::-webkit-inner-spin-button {
 /********************* QUESTIONNAIRE/ SURVEY DEVELOPMENT **************************/
 
 .quetbannerbg{background-image: url(/image/herobgservices.png); background-repeat: no-repeat; background-size: cover;padding-top: 75px; padding-bottom: 40px;}
-.quetbannerbg .header{font-size: 50px;margin-top: 60px;font-weight: 800;}
+.quetbannerbg .header{font-size: 45px;margin-top: 20px;font-weight: 800;}
 
 .quetbannerbg1{background-image:linear-gradient(to right,#00557B,#00A1ED4D);margin-top: -110px;padding-top: 20px;padding-bottom: 10px;}
 .quetbannerbg1 .text-para{color: #fff;}
-
+.quetbannerbg.databannerbg .header ,.quetbannerbg.endbannerbg .header{margin-top: 0;}
+.quetbannerbg1.questbg{margin-top: -130px;} 
 .surveymain{padding-top: 60px; padding-bottom: 60px;}
 .surveymain ul li{text-decoration: none;list-style-type: none;margin-bottom: 10px;
     font-size: 17px;font-weight: 500;display: flex; }
@@ -205,6 +210,8 @@ input::-webkit-inner-spin-button {
 .blogbanner .headerbtm{position: absolute;bottom: 20px;font-size: 45px;
     color: #fff;font-weight: 600;left: 12px;}
 /************************  Contact Us  ************************/
+.blogbanner.contactbannerbg{padding-top: 20px; padding-bottom: 0;}
+.blogbanner.contactbannerbg .headerbtm{bottom: 80px;}
 .adressbg{padding-top: 50px; padding-bottom: 50px;}
 .adressbg .mediaBox {text-align: center;padding: 30px 20px 5px 20px;box-shadow: 4px 5px 10px #d3d3d3;border-radius: 40px;margin-top: 15px;background-color: #12688F;
     color: #fff;min-height: 215px;}
@@ -298,8 +305,13 @@ input::-webkit-inner-spin-button {
     .quetbannerbg .header{font-size: 25px; margin-top: 0;padding: 0 25px;}
     .quetbannerbg .bannerimg{margin-top: 20px;}
     .quetbannerbg1{margin-top: 0;}
-    .blogbanner .headerbtm {top: 352%;font-size: 25px;color: #fff;font-weight: 600;
+    .blogbanner .headerbtm {top: 310%;font-size: 25px;color: #fff;font-weight: 600;
         left: 30px;}
     .testimonial1{margin-top: 40px;}
     .adressbg{overflow: hidden;}
+    .toolmain .text-para{padding-left: 10px; padding-right: 10px;}
+    .quetbannerbg1.questbg {margin-top: -30px;}
+    .blogbanner.contactbannerbg .headerbtm{top: 430%;font-size: 25px;color: #000;
+        font-weight: 600;left: 125px;}
+        .adressbg .mediaBox{margin-top: 50px;}
  }
