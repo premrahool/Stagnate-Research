@@ -208,7 +208,7 @@ input::-webkit-inner-spin-button {
 
 .blogbanner{background-image: url(../image/aboutusbg.jpg); background-repeat: no-repeat; background-size: cover;padding-top: 60px; padding-bottom: 40px;}
 .contactbannerbg{background-image: url(../image/herobgservices.png); background-repeat: no-repeat; background-size: cover;padding-top: 75px; padding-bottom: 40px;}
-.blogbanner .header{font-size: 50px; margin-top: 60px; font-weight: 800;}
+.blogbanner .header{font-size: 50px; margin-top: 10px; font-weight: 800;}
 .blogbanner .headerbtm{position: absolute;bottom: 20px;font-size: 45px;
     color: #fff;font-weight: 600;left: 12px;}
 /************************  Contact Us  ************************/
@@ -216,7 +216,7 @@ input::-webkit-inner-spin-button {
 .blogbanner.contactbannerbg .headerbtm{bottom: 80px;}
 .adressbg{padding-top: 50px; padding-bottom: 50px;}
 .adressbg .mediaBox {text-align: center;padding: 30px 20px 5px 20px;box-shadow: 4px 5px 10px #d3d3d3;border-radius: 40px;margin-top: 15px;background-color: #12688F;
-    color: #fff;min-height: 215px;}
+    color: #fff;min-height: 235px;}
 .adressbg .imgicon{height: 70px;}
 .adressbg .conthead{margin-top: 10px;}
 .adressbg a{ color: #fff; text-decoration: none;}
@@ -267,6 +267,7 @@ input::-webkit-inner-spin-button {
     .mainHeader .navbar-nav{text-align: center;}
     .header{font-size: 25px;}
     .header1{font-size: 30px;}
+    .banner-main{padding-top: 90px;}
     .banner-main .banner-text{margin-top:0px; margin-bottom: 50px;}
     .stagnat-resec .stagnate-image{margin-top: 40px;}
     .our-competitive .ourcom-txt{padding: 20px 20px;}
@@ -316,4 +317,5 @@ input::-webkit-inner-spin-button {
     .blogbanner.contactbannerbg .headerbtm{top: 430%;font-size: 25px;color: #000;
         font-weight: 600;left: 125px;}
     .adressbg .mediaBox{margin-top: 50px;}
+    .blogbanner.contactbannerbg {padding-top: 60px;padding-bottom: 25px;}
  }
