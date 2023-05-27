@@ -216,7 +216,8 @@ input::-webkit-inner-spin-button {
 .blogbanner.contactbannerbg .headerbtm{bottom: 80px;}
 .adressbg{padding-top: 50px; padding-bottom: 50px;}
 .adressbg .mediaBox {text-align: center;padding: 30px 20px 5px 20px;box-shadow: 4px 5px 10px #d3d3d3;border-radius: 40px;margin-top: 15px;background-color: #12688F;
-    color: #fff;min-height: 235px;}
+    color: #fff;min-height: 235px;transition: all linear .5s;}
+.adressbg .mediaBox:hover{box-shadow: 4px 5px 10px #d3d3d3;transition: all linear .2s;transform: scale(1.03);background-color: #12688F; color: #fff;}
 .adressbg .imgicon{height: 70px;}
 .adressbg .conthead{margin-top: 10px;}
 .adressbg a{ color: #fff; text-decoration: none;}
