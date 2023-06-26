@@ -16,6 +16,7 @@
 .relative {position:relative;}
 .no-border {border: none;}
 .width100 {width: 100%;}
+.overflow{overflow: hidden;}
 .mt-0 {margin-top:0px;}
 .mt-10 {margin-top:10px;}
 .mt-20 {margin-top:20px;}
@@ -39,16 +40,20 @@ input::-webkit-inner-spin-button {
 
 /* Top Header */
 .logo_main {height:80px;}
-.mainHeader {background-image: linear-gradient(90deg,#fff,#fff,#cbebf9,#a4c8d8);padding: 1px 0; position: sticky; top: 0;z-index: 9999;}
-.mainHeader.shadow {background-color: #fff;padding: 1px 0;box-shadow: 0px 2px 5px #ccc;margin-bottom: 5px;}
+.stickyHead,.mainHeader { position: fixed;width: 100%;}
+/* .mainHeader {background-image: linear-gradient(90deg,#fff,#fff,#cbebf9,#a4c8d8);padding: 1px 0; position: sticky; top: 0;z-index: 9999;} */
+
+/* .mainHeader.shadow {background-color: #fff;padding: 1px 0;box-shadow: 0px 2px 5px #ccc;margin-bottom: 5px;} */
 .mainHeader .navbar {padding-top:1px;padding-bottom:1px;}
 .mainHeader .navbar.bg-light {background-color: transparent;}
 .mainHeader .navbar-light .navbar-nav .nav-link {color: #000;font-size: 16px; margin: 0 15px;font-weight: 500;}
 .mainHeader .navbar-light .navbar-nav .nav-link.myBTN {color: #fff;padding: 8px 30px;}
 .getbtn{margin-top: 20px;}
 .mainHeader .dropdown-item:hover {background-color: #003366;color: #fff;background-image: linear-gradient(90deg,#60CCEB,#00668D,#003447);}
+.mainHeader.stickyHead { background-color: #fff;z-index:999;background-image: linear-gradient(90deg,#fff,#fff,#cbebf9,#a4c8d8);}
+.bannerWrap {padding-top: 110px;}
 /* Banner-Section  */
-.banner-main{background-image: url(../image/herobg.png); background-repeat: no-repeat; background-size: cover;padding-top: 60px; padding-bottom: 40px;margin-top: -35px;}
+.banner-main{background-image: url(../image/herobg.png); background-repeat: no-repeat; background-size: cover;padding-top: 0px; padding-bottom: 40px;}
 .banner-main .banner-text{margin-top: 60px;}
 /* Why Stagnate Research? */
 .stagnat-resec{padding-top: 60px; padding-bottom: 50px;}
@@ -265,10 +270,12 @@ input::-webkit-inner-spin-button {
 @media (min-width:320px) and (max-width:480px){
     .mt-80{margin-top: 50px;}
     .logo_main {height: 35px;}
+    .mainHeader{background-image: linear-gradient(90deg,#fff,#fff,#cbebf9,#a4c8d8);
+        padding: 10px 0; box-shadow: 0px 2px 5px #ccc; z-index: 99;}
     .mainHeader .navbar-nav{text-align: center;}
     .header{font-size: 25px;}
     .header1{font-size: 30px;}
-    .banner-main{padding-top: 90px;}
+    .banner-main{padding-top: 0px;}
     .banner-main .banner-text{margin-top:0px; margin-bottom: 50px;}
     .stagnat-resec .stagnate-image{margin-top: 40px;}
     .our-competitive .ourcom-txt{padding: 20px 20px;}
